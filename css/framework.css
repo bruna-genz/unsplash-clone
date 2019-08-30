@@ -289,14 +289,8 @@ h6 {
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (min-width: 720px) {
     /* columns */
-
-    .col-4 {
-        width: 48%;
-        margin: 0 auto;
-    }
-
     .col-md-1 {
         width: 7.5%;
         margin: 0 auto;
