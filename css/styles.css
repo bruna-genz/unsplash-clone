@@ -2,6 +2,7 @@
 header {
     position: sticky;
     top: 0;
+    background: #fff;
 }
 
 .header-top {
@@ -63,7 +64,7 @@ header {
 .header-top .btn-green {
     display: inline-block;
     color: #fff;
-    background: #3CB46E;
+    background: #3cb46e;
     text-align: center;
     font-size: 14px;
     padding: 7px 12px 0 12px;
@@ -97,7 +98,92 @@ header {
     padding-bottom: 15px;
 }
 
-.nav-list a {
+.header-bottom .nav-list a {
     display: inline-block;
+    color: #939393;
+}
+
+.header-bottom .nav-list a:hover {
     color: #353535;
+}
+
+/* ================================================= MAIN =========================================================== */
+
+.search-section {
+    height: 33rem;
+    background: url("https://images.unsplash.com/photo-1566135171122-6ce3e8f2aef1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80") no-repeat center;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.search-section .main {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 150px;
+    margin-bottom: auto;
+}
+
+.search-section .main h1,
+.search-section .main p {
+    font-size: 18px;
+}
+
+.search-section .main li {
+    font-size: 15px;
+}
+
+.search-section .main .unsplash {
+    font-size: 46px;
+}
+
+.search-section .main h1,
+.search-section .main p,
+.search-section .main ul {
+    color: #fff;
+    text-align: center;
+}
+
+.search-section .main .mr {
+    margin-right: auto;
+}
+
+.search-section .main .ml {
+    margin-left: auto;
+}
+
+.search-section .main form {
+    text-align: center;
+}
+
+.search-section .main label,
+.search-section .main input {
+    display: inline-block;
+    background: #fff;
+    font-size: 18px;
+    justify-self: center;
+}
+
+.search-section .main input {
+    width: 60%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.search-section .main label {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search-section .footer {
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.search-section .footer .footer-text a {
+    align-self: self-end;
+    color: #fff;
+}
+
+.search-section .footer .footer-text {
+    color: rgba(255, 255, 255, 0.6);
 }
