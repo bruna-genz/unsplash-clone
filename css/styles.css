@@ -220,9 +220,77 @@ header {
     width: 100%;
     margin-bottom: 5px;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .cover:hover {
-    background-image: radial-gradient(rgba(0,0,0,0.1), rgba(0,0,0, 0.3), rgba(0,0,0,0.5)); 
+    background-image: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
 }
-    
+
+.cover .top-cover {
+    justify-content: flex-end;
+    display: none;
+}
+
+.cover .top-cover .heart,
+.cover .top-cover .collect {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #f4f4f4;
+    color: #353535;
+    margin: 10px 15px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.cover .top-cover .heart {
+    color: red;
+}
+
+.cover:hover .top-cover {
+    display: flex;
+}
+
+.cover .bottom-cover {
+    justify-content: space-between;
+    display: none;
+    margin-top: auto;
+}
+
+.cover .bottom-cover .rounded-img {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 25px;
+    margin: 5px;
+}
+
+.cover .bottom-cover .user {
+    align-items: center;
+}
+
+.cover .bottom-cover .rounded-img img {
+    width: 100%;
+}
+
+.cover .bottom-cover .name {
+    display: inline-block;
+    padding: 5px;
+    color: #fff;
+}
+
+.cover .bottom-cover .download {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #f4f4f4;
+    color: #353535;
+    margin: 10px 15px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.cover:hover .bottom-cover {
+    display: flex;
+}
