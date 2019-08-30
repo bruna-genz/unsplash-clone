@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/framework.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/all.min.js"></script>
+    <script src="js/styles-js.js"></script>
     <title>Title</title>
 </head>
 <body>
@@ -11,24 +13,26 @@
     <!-- header -->
     <header class="d-flex wrap">
         <div class="row header-top d-flex">
-            <div class="logo d-flex wrap">
-                <div class="icon col-4">X</div>
-                <div class="title col-8">Unsplash</div>
-                <div class="subtitle col-8">Photos for everyone</div>
+            <div class="logo d-flex wrap col-2">
+                <div class="icon col-2"><i class="fas fa-camera-retro"></i></div>
+                <div class="text col-10">
+                    <div class="title">Unsplash</div>
+                    <div class="subtitle">Photos for everyone</div>
+                </div>
             </div>
-            <form class="search d-flex">
-                <label for="search">X</label>
+            <form class="search d-flex col-4">
+                <label id="label" for="search" class="p-2"><i class="fas fa-search"></i></label>
                 <input type="text" id="search" placeholder="Search free high-resolution photos">
             </form>
-            <div class="links d-flex">
-                <a href="#">Collections</a>
-                <a href="#">Explore</a>
-                <a href="#">X</a>
+            <div class="links d-flex col-3">
+                <a href="#" class="p-2">Collections</a>
+                <a href="#" class="p-2">Explore</a>
+                <a href="#" class="p-2"><i class="fas fa-ellipsis-h"></i></a>
             </div>
-            <div class="login d-flex">
-                <a href="#">Submit a photo</a>
-                <a href="#">Login</a>
-                <a href="#">Join free</a>
+            <div class="login d-flex col-3">
+                <a href="#" class="btn-withe">Submit a photo</a>
+                <a href="#" class="log-link p-2">Login</a>
+                <a href="#" class="btn-green">Join free</a>
             </div>
         </div>
 

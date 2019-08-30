@@ -1,13 +1,78 @@
+/* ============================================== HEADER ============================================================ */
 header {
     position: sticky;
-    top: 0px;
+    top: 0;
 }
 
 .header-top {
     justify-content: space-between;
 }
 
+.header-top .logo .icon {
+    font-size: 35px;
+}
+
+.header-top .search label {
+    width: 10%;
+    display: block;
+    background: #eee;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.header-top .search input[type="text"] {
+    width: 90%;
+    background: #eee;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.header-top .links a {
+    display: inline-block;
+    justify-content: space-between;
+    color: #353535;
+}
+
+.header-top .btn-withe {
+    display: inline-block;
+    color: #939393;
+    border: solid 1px #939393;
+    text-align: center;
+    font-size: 14px;
+    padding: 6px 10px 0 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+.header-top .btn-withe:hover {
+    color: #353535;
+    border: solid 1px #353535;
+}
+
 .header-bottom {
     justify-content: space-between;
+}
+
+.header-top .log-link {
+    border-left: solid 1px #939393;
+    color: #353535;
+}
+
+.header-top .btn-green {
+    display: inline-block;
+    color: #fff;
+    background: #3CB46E;
+    text-align: center;
+    font-size: 14px;
+    padding: 7px 12px 0 12px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.header-top .btn-green:hover {
+    background: #2e8945;
 }
 
