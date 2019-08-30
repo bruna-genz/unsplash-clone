@@ -3,6 +3,7 @@ header {
     position: sticky;
     top: 0;
     background: #fff;
+    z-index: 10;
 }
 
 .header-top {
@@ -77,10 +78,14 @@ header {
     background: #2e8945;
 }
 
+.header-bottom {
+    margin-bottom: 0;
+}
+
 .nav-list {
     width: 100%;
     justify-content: flex-start;
-    margin: 10px;
+    margin: 10px 10px 0 10px;
 }
 
 .nav-list .list-item {
@@ -187,3 +192,37 @@ header {
 .search-section .footer .footer-text {
     color: rgba(255, 255, 255, 0.6);
 }
+
+/* =============================================== GALLERY =========================================================== */
+
+.gallery {
+    max-width: 1300px;
+    margin: 30px auto;
+}
+
+.image-container {
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-container img {
+    width: 100%; 
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+    width: 100%;
+    margin-bottom: 5px;
+    z-index: 1;
+}
+
+.cover:hover {
+    background-image: radial-gradient(rgba(0,0,0,0.1), rgba(0,0,0, 0.3), rgba(0,0,0,0.5)); 
+}
+    
