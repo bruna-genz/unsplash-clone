@@ -1,0 +1,13 @@
+header {
+    position: sticky;
+    top: 0px;
+}
+
+.header-top {
+    justify-content: space-between;
+}
+
+.header-bottom {
+    justify-content: space-between;
+}
+
