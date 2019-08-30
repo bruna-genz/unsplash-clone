@@ -16,8 +16,8 @@ header {
     width: 10%;
     display: block;
     background: #eee;
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
+    border-top-left-radius: 38%;
+    border-bottom-left-radius: 38%;
 }
 
 .header-top .search input[type="text"] {
@@ -51,8 +51,8 @@ header {
     border: solid 1px #353535;
 }
 
-.header-bottom {
-    justify-content: space-between;
+.header-top .login {
+    justify-content: flex-end;
 }
 
 .header-top .log-link {
@@ -76,3 +76,28 @@ header {
     background: #2e8945;
 }
 
+.nav-list {
+    width: 100%;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.nav-list .list-item {
+    margin: 15px;
+}
+
+.nav-list .border-right {
+    border-right: solid 1px #939393;
+    margin: 0;
+    padding: 15px 15px 0 15px;
+}
+
+.nav-list .border-bottom {
+    border-bottom: solid 3px black;
+    padding-bottom: 15px;
+}
+
+.nav-list a {
+    display: inline-block;
+    color: #353535;
+}
