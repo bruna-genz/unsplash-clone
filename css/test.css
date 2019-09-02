@@ -1,0 +1,51 @@
+.div1 div {
+    background: #2b81af;
+    height: 150px;
+}
+
+.div2 div {
+    background: #ee5757;
+    height: 250px;
+}
+
+.div3 div {
+    height: 400px;
+    background: #3cb46e;
+}
+
+/* frame classes */
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.m-b-1 {
+    margin-bottom: 10px;
+}
+
+.col-3 {
+    width: 30%;
+    margin: 0 15px;
+}
+
+@media screen and (max-width: 1024px) {
+    .col-md-6 {
+        width: 46%;
+        margin: 0 auto;
+    }
+
+    .col-md-12 {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .col-sm-12 {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
