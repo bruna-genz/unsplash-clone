@@ -222,6 +222,10 @@ body {
         display: flex;
     }
 
+    .d-md-block {
+        display: block;
+    }
+
     .d-md-none {
         display: none;
     }
