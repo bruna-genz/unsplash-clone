@@ -1,3 +1,22 @@
+/* ================================================== RESET ======================================================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 /* ================================================== GENERAL ======================================================= */
 .image-container img {
     width: 100%;
@@ -13,6 +32,58 @@
 
 .row {
     width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'OpenSans Light', sans-serif;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: 'OpenSans Light', sans-serif;
+}
+
+h3 {
+    font-size: 32px;
+    font-family: 'OpenSans Light', sans-serif;
+}
+
+h4 {
+    font-size: 28px;
+    font-family: 'OpenSans Regular', sans-serif;
+}
+
+h5 {
+    font-size: 24px;
+    font-family: 'OpenSans Regular', sans-serif;
+}
+
+h6 {
+    font-size: 20px;
+    font-family: 'OpenSans Regular', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'OpenSans Regular', sans-serif;
+    color: rgb(53, 53, 53);
+}
+
+/* ================================================= FONT ========================================================= */
+@font-face {
+    font-family: 'OpenSans Regular';
+    src: url("Open_Sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans Light';
+    src: url("Open_Sans/OpenSans-Light.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans Bold';
+    src: url("Open_Sans/OpenSans-Bold.ttf");
 }
 
 /* ============================================= MARGINS & PADDINGS ================================================ */
