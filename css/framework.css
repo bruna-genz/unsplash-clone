@@ -1,9 +1,8 @@
-header,
-.search-section {
-    display: none;
+/* ================================================== GENERAL ======================================================= */
+.image-container img {
+    width: 100%;
 }
 
-/* ================================================== GENERAL ======================================================= */
 .d-flex {
     display: flex;
 }
@@ -21,7 +20,7 @@ header,
     width: 33.33%;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .col-md-6 {
         width: 50%;
     }
