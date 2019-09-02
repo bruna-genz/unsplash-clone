@@ -100,6 +100,7 @@ header {
 
 .nav-list .list-item {
     margin: 15px;
+    white-space: nowrap;
 }
 
 .nav-list .border-right {
@@ -120,6 +121,14 @@ header {
 
 .header-bottom .nav-list a:hover {
     color: #353535;
+}
+
+header .small-nav {
+    top: 0;
+}
+
+header .small-nav .list-item {
+    text-align: center;
 }
 
 /* ================================================= MAIN =========================================================== */

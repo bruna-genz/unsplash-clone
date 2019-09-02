@@ -218,7 +218,6 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-
     .d-md-flex {
         display: flex;
     }
@@ -277,6 +276,32 @@ body {
 }
 
 @media screen and  (max-width: 720px) {
+    /* display */
+    .d-sm-none {
+        display: none;
+    }
+
+    .d-sm-flex {
+        display: flex;
+    }
+
+    .d-sm-block {
+        display: block;
+    }
+
+    /* position */
+    .position-sm-static {
+        position: static;
+    }
+
+    .position-sm-sticky {
+        position: sticky;
+    }
+
+    .justify-between-sm {
+        justify-content: space-between;
+    }
+
     .col-sm-1 {
         width: 8.33%;
     }
